@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 30px;
+}
+
+#corner,
+#edegs {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  word-spacing: 4px;
+  margin: 0;
+}
+
+#btn {
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#checkAnswer {
+  font-size: 1.5rem;
+}
+
+#correctAnswer {
+  font-size: 1.3rem;
+  letter-spacing: 4px;
+}
+
+#input {
+  font-size: 1.2rem;
+  padding: 3px;
+  letter-spacing: 4px;
+  width: 400px;
+}
+
+@media screen and (max-width: 500px) {
+  #input {
+    font-size: 16px;
+    padding: 2px;
+    letter-spacing: 4px;
+    width: 250px;
+  }
+
+  #correctAnswer {
+    width: 250px;
+    text-align: center;
+    word-wrap: break-word;
+  }
+}
